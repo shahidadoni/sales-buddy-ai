@@ -1,0 +1,10 @@
+1. What is my highest value deal across all accounts?
+2. Show me all accounts in the technology industry
+3. Which of my accounts have security concerns?
+4. What services should I pitch to HealthFirst Inc based on their pain points?
+5. Show me all completed deals in the last 6 months
+6. What is the total value of all my in-progress deals?
+7. Which account has the highest potential for AI/ML services?
+8. What are the common pain points across my accounts?
+9. Show me accounts that haven't had any new deals this year
+10. What is the best cross-selling opportunity for RetailGiant? 

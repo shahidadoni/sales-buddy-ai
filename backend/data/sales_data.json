@@ -1,0 +1,98 @@
+{
+  "account_managers": [
+    {
+      "id": "AM001",
+      "name": "John Smith",
+      "accounts": ["ACC001", "ACC002", "ACC003"]
+    },
+    {
+      "id": "AM002",
+      "name": "Sarah Johnson",
+      "accounts": ["ACC004", "ACC005"]
+    },
+    {
+      "id": "AM003",
+      "name": "Michael Chen",
+      "accounts": ["ACC006", "ACC007", "ACC008"]
+    }
+  ],
+  "accounts": [
+    {
+      "id": "ACC001",
+      "name": "TechCorp Solutions",
+      "industry": "Technology",
+      "current_tech_stack": ["AWS", "Oracle", "Java"],
+      "pain_points": ["High infrastructure costs", "Legacy systems", "Security concerns"]
+    },
+    {
+      "id": "ACC002",
+      "name": "HealthFirst Inc",
+      "industry": "Healthcare",
+      "current_tech_stack": ["On-premise servers", "Python", "MySQL"],
+      "pain_points": ["Data compliance", "Scalability issues", "Manual processes"]
+    },
+    {
+      "id": "ACC003",
+      "name": "RetailGiant",
+      "industry": "Retail",
+      "current_tech_stack": ["Azure", ".NET", "SQL Server"],
+      "pain_points": ["Multi-cloud management", "Performance issues", "Cost optimization"]
+    },
+    {
+      "id": "ACC004",
+      "name": "FinanceHub",
+      "industry": "Finance",
+      "current_tech_stack": ["IBM Cloud", "Java", "Oracle"],
+      "pain_points": ["Legacy modernization", "Security", "Cloud migration"]
+    },
+    {
+      "id": "ACC005",
+      "name": "EduTech Solutions",
+      "industry": "Education",
+      "current_tech_stack": ["GCP", "Python", "MongoDB"],
+      "pain_points": ["Scaling issues", "Cost management", "AI integration"]
+    }
+  ],
+  "deals": [
+    {
+      "id": "DEAL001",
+      "account_id": "ACC001",
+      "service_line": "Cloud Migration",
+      "value": 250000,
+      "status": "Completed",
+      "date": "2023-08-15"
+    },
+    {
+      "id": "DEAL002",
+      "account_id": "ACC001",
+      "service_line": "Security Assessment",
+      "value": 75000,
+      "status": "In Progress",
+      "date": "2024-01-10"
+    },
+    {
+      "id": "DEAL003",
+      "account_id": "ACC002",
+      "service_line": "App Modernization",
+      "value": 350000,
+      "status": "Completed",
+      "date": "2023-11-20"
+    },
+    {
+      "id": "DEAL004",
+      "account_id": "ACC003",
+      "service_line": "DevOps Implementation",
+      "value": 180000,
+      "status": "In Progress",
+      "date": "2024-02-01"
+    },
+    {
+      "id": "DEAL005",
+      "account_id": "ACC004",
+      "service_line": "Data Analytics",
+      "value": 420000,
+      "status": "Completed",
+      "date": "2023-12-15"
+    }
+  ]
+} 
