@@ -3,17 +3,45 @@
     {
       "id": "AM001",
       "name": "John Smith",
-      "accounts": ["ACC001", "ACC002", "ACC003"]
+      "accounts": [
+        "ACC001",
+        "ACC002",
+        "ACC003"
+      ]
     },
     {
       "id": "AM002",
       "name": "Sarah Johnson",
-      "accounts": ["ACC004", "ACC005"]
+      "accounts": [
+        "ACC004",
+        "ACC005"
+      ]
     },
     {
       "id": "AM003",
       "name": "Michael Chen",
-      "accounts": ["ACC006", "ACC007", "ACC008"]
+      "accounts": [
+        "ACC006",
+        "ACC007",
+        "ACC008"
+      ]
+    },
+    {
+      "id": "AM004",
+      "name": "Emily Rodriguez",
+      "accounts": [
+        "ACC009",
+        "ACC010"
+      ]
+    },
+    {
+      "id": "AM005",
+      "name": "David Kim",
+      "accounts": [
+        "ACC011",
+        "ACC012",
+        "ACC013"
+      ]
     }
   ],
   "accounts": [
@@ -21,36 +49,151 @@
       "id": "ACC001",
       "name": "TechCorp Solutions",
       "industry": "Technology",
-      "current_tech_stack": ["AWS", "Oracle", "Java"],
-      "pain_points": ["High infrastructure costs", "Legacy systems", "Security concerns"]
+      "current_tech_stack": [
+        "AWS",
+        "Oracle",
+        "Java"
+      ],
+      "pain_points": [
+        "High infrastructure costs",
+        "Legacy systems",
+        "Security concerns"
+      ]
     },
     {
       "id": "ACC002",
       "name": "HealthFirst Inc",
       "industry": "Healthcare",
-      "current_tech_stack": ["On-premise servers", "Python", "MySQL"],
-      "pain_points": ["Data compliance", "Scalability issues", "Manual processes"]
+      "current_tech_stack": [
+        "On-premise servers",
+        "Python",
+        "MySQL"
+      ],
+      "pain_points": [
+        "Data compliance",
+        "Scalability issues",
+        "Manual processes"
+      ]
     },
     {
       "id": "ACC003",
       "name": "RetailGiant",
       "industry": "Retail",
-      "current_tech_stack": ["Azure", ".NET", "SQL Server"],
-      "pain_points": ["Multi-cloud management", "Performance issues", "Cost optimization"]
+      "current_tech_stack": [
+        "Azure",
+        ".NET",
+        "SQL Server"
+      ],
+      "pain_points": [
+        "Multi-cloud management",
+        "Performance issues",
+        "Cost optimization"
+      ]
     },
     {
       "id": "ACC004",
       "name": "FinanceHub",
       "industry": "Finance",
-      "current_tech_stack": ["IBM Cloud", "Java", "Oracle"],
-      "pain_points": ["Legacy modernization", "Security", "Cloud migration"]
+      "current_tech_stack": [
+        "IBM Cloud",
+        "Java",
+        "Oracle"
+      ],
+      "pain_points": [
+        "Legacy modernization",
+        "Security",
+        "Cloud migration"
+      ]
     },
     {
       "id": "ACC005",
       "name": "EduTech Solutions",
       "industry": "Education",
-      "current_tech_stack": ["GCP", "Python", "MongoDB"],
-      "pain_points": ["Scaling issues", "Cost management", "AI integration"]
+      "current_tech_stack": [
+        "GCP",
+        "Python",
+        "MongoDB"
+      ],
+      "pain_points": [
+        "Scaling issues",
+        "Cost management",
+        "AI integration"
+      ]
+    },
+    {
+      "id": "ACC006",
+      "name": "ManufactureX",
+      "industry": "Manufacturing",
+      "current_tech_stack": [
+        "SAP",
+        "Oracle",
+        "Windows Server"
+      ],
+      "pain_points": [
+        "Supply chain visibility",
+        "IoT integration",
+        "Process automation"
+      ]
+    },
+    {
+      "id": "ACC007",
+      "name": "MediaStream Global",
+      "industry": "Media & Entertainment",
+      "current_tech_stack": [
+        "AWS",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "pain_points": [
+        "Content delivery latency",
+        "Storage costs",
+        "Streaming quality"
+      ]
+    },
+    {
+      "id": "ACC008",
+      "name": "GreenEnergy Co",
+      "industry": "Energy",
+      "current_tech_stack": [
+        "Azure",
+        "Python",
+        "Hadoop"
+      ],
+      "pain_points": [
+        "Data analytics",
+        "Predictive maintenance",
+        "Grid optimization"
+      ]
+    },
+    {
+      "id": "ACC009",
+      "name": "InsureTech Pro",
+      "industry": "Insurance",
+      "current_tech_stack": [
+        "Salesforce",
+        "Java",
+        "Oracle"
+      ],
+      "pain_points": [
+        "Claims processing",
+        "Risk assessment",
+        "Customer experience"
+      ]
+    },
+    {
+      "id": "ACC010",
+      "name": "SmartCity Solutions",
+      "industry": "Government",
+      "current_tech_stack": [
+        "IBM Cloud",
+        "C#",
+        "SQL Server"
+      ],
+      "pain_points": [
+        "Data security",
+        "System integration",
+        "Legacy modernization"
+      ]
     }
   ],
   "deals": [
@@ -93,6 +236,46 @@
       "value": 420000,
       "status": "Completed",
       "date": "2023-12-15"
+    },
+    {
+      "id": "DEAL006",
+      "account_id": "ACC006",
+      "service_line": "IoT Implementation",
+      "value": 550000,
+      "status": "In Progress",
+      "date": "2024-01-20"
+    },
+    {
+      "id": "DEAL007",
+      "account_id": "ACC007",
+      "service_line": "Content Delivery Network",
+      "value": 320000,
+      "status": "Completed",
+      "date": "2023-12-01"
+    },
+    {
+      "id": "DEAL008",
+      "account_id": "ACC008",
+      "service_line": "Predictive Analytics",
+      "value": 280000,
+      "status": "In Progress",
+      "date": "2024-02-15"
+    },
+    {
+      "id": "DEAL009",
+      "account_id": "ACC009",
+      "service_line": "Digital Transformation",
+      "value": 650000,
+      "status": "In Progress",
+      "date": "2024-01-30"
+    },
+    {
+      "id": "DEAL010",
+      "account_id": "ACC010",
+      "service_line": "Cybersecurity Suite",
+      "value": 425000,
+      "status": "Completed",
+      "date": "2023-11-30"
     }
   ]
-} 
+}
